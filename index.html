@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="style.css" />
+	<title>Guess My Number!</title>
+</head>
+
+<body>
+	<header>
+		<h1>Guess My Number!</h1>
+
+		<button class="btn again animate__animated">Again!</button>
+		<div class="number">?</div>
+		<div class="baloons hidden">
+			<div class="baloon"></div>
+			<div class="baloon"></div>
+			<div class="baloon"></div>
+			<div class="baloon"></div>
+			<div class="baloon"></div>
+		</div>
+	</header>
+	
+	<main>
+		<section class="left">
+			<form>
+				<input type="text" class="guess" placeholder="1-35">
+				<button class="btn check">Check!</button>
+			</form>
+		</section>
+		
+		<section class="right">
+			<p class="message"> ⬅ To start the game enter a number between 1 and 35</p>
+			<p class="label-score">Score: <span class="score">10</span></p>
+			<p class="label-highscore">Highscore: <span class="highscore">0</span>
+			</p>
+		</section>
+	</main>
+	
+	<script src="script.js"></script>  
+</body>
+</html>
